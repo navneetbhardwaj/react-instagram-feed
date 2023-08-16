@@ -1,10 +1,10 @@
 {
-  "name": "react-ig-feed",
-  "version": "1.0.2",
+  "name": "react-instagram-feed",
+  "version": "1.0.3",
   "description": "A React component to display a user's Instagram photos Using Instagram Basic Graph API",
-  "author": "Mohammed RAJI",
+  "author": "",
   "license": "MIT",
-  "repository": "https://github.com/MohammedRaji/react-ig-feed",
+  "repository": "https://github.com/navneetbhardwaj/react-instagram-feed",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -31,7 +31,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",

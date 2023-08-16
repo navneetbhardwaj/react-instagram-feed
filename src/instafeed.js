@@ -12,7 +12,7 @@ const InstagramFeed = props => {
 
   const type = showImage ? 'hidePlaceholder' : 'placeholder';
 
-  let url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url,caption&&access_token=${token}`;
+  let url = `https://graph.instagram.com/me/media?fields=media_count,media_type,permalink,media_url,caption&&access_token=${token}&&limit=${counter}`;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,7 +21,6 @@ const InstagramFeed = props => {
         .then(response => response.json())
         .then(result => {
           setData(result.data)
-          console.log('JavaScript version is here https://codecanyon.net/item/instaget-javascript-library-for-instagram/26300578');
         })
         .catch((error) => setIsError(true));
       setIsLoading(false);

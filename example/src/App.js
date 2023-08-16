@@ -1,7 +1,7 @@
 import React from 'react'
 
-import InstagramFeed  from 'react-ig-feed'
-import 'react-ig-feed/dist/index.css'
+import InstagramFeed  from 'react-instagram-feed'
+import 'react-instagram-feed/dist/index.css'
 
 const App = () => {
   
