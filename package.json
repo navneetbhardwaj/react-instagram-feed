@@ -1,10 +1,10 @@
 {
-  "name": "react-instagram-feed",
+  "name": "react-instagram-nb",
   "version": "1.0.3",
   "description": "A React component to display a user's Instagram photos Using Instagram Basic Graph API",
   "author": "",
   "license": "MIT",
-  "repository": "https://github.com/navneetbhardwaj/react-instagram-feed",
+  "repository": "https://github.com/navneetbhardwaj/react-instagram-nb",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
